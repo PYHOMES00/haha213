@@ -9,7 +9,7 @@ class Config:
     DATABASE_NAME = "Cluster0"
     OWNER_ID = [int(id) for id in os.environ.get("OWNER_ID", '5340652544').split()]
     BOT_OWNER_ID = [int(id) for id in os.environ.get("BOT_OWNER_ID", '5340652544').split()]
-    UPDATES_CHANNEL = ""
+    UPDATES_CHANNEL = "-1002173648219"
 
 class temp(object): 
     lock = {}
