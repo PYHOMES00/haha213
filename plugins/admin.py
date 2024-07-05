@@ -63,7 +63,7 @@ async def donate(client, message):
 ᴜᴘɪ ʟɪɴᴋ 🔗 ᴀʟsᴏ ᴛʜᴇʀᴇ 😇
 🌹 ᴛʜᴀɴᴋɪɴɢ ʏᴏᴜ 🌹</b>
 
-🛍 UPI ID:</b> <code>anmol0700@fam</code>"""
+🛍 UPI ID:</b> <code>Maurya-Shubham@fam</code>"""
     keybord = InlineKeyboardMarkup([[
         InlineKeyboardButton('💳 ᴅᴏɴᴀᴛᴇ 💳', url='https://te.legra.ph/Donate-Us-07-05')
         ]])
