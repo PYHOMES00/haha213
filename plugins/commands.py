@@ -10,10 +10,10 @@ from pyrogram import Client, filters, enums, __version__ as pyrogram_version
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaDocument
 
 main_buttons = [[
-        InlineKeyboardButton('🕷 ᴄᴏᴅᴇ ᴀʀᴛɪꜱᴀɴ', url='https://t.me/Anmol0700')
+        InlineKeyboardButton('🕷 ᴄᴏᴅᴇ ᴀʀᴛɪꜱᴀɴ', url='https://t.me/SHUBHAM_X_OFFICIAL')
         ],[
-        InlineKeyboardButton('👨‍💻 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Movies_Samrajya'),
-        InlineKeyboardButton('🔄 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/Film_Nest')
+        InlineKeyboardButton('👨‍💻 ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/The_creator_SUpport_group'),
+        InlineKeyboardButton('🔄 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/The_creator_bot')
         ],[
         InlineKeyboardButton('🆘 ʜᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton('ℹ️ ᴀʙᴏᴜᴛ', callback_data='about')
@@ -22,8 +22,8 @@ main_buttons = [[
         ]]
 
 buttons = [[
-        InlineKeyboardButton('🕸 ᴄᴏᴅᴇ ᴀʀᴛɪꜱᴀɴ', url='https://t.me/Anmol0700'),
-        InlineKeyboardButton('👀 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://te.legra.ph/file/fecf4e578f159374f33c4.mp4')
+        InlineKeyboardButton('🕸 ᴄᴏᴅᴇ ᴀʀᴛɪꜱᴀɴ', url='https://t.me/Shubham_x_official'),
+        InlineKeyboardButton('💳 ʙᴜʏ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://t.me/Shubham_x_official')
         ]]
 
 
@@ -34,7 +34,7 @@ async def start(client, message):
     user = message.from_user
     
     # Fetch the picture from the provided URL
-    picture_url = "https://te.legra.ph/file/1f2ac2fe8cdf202799847.jpg"
+    picture_url = "https://te.legra.ph/Donate-Us-07-05"
     
     # Send the picture with the start message
     await client.send_photo(
@@ -69,7 +69,7 @@ async def help(client, message):
         await db.add_user(user.id, user.first_name)
     
     # Fetch the picture from the provided URL
-    picture_url = "https://te.legra.ph/file/1f2ac2fe8cdf202799847.jpg"
+    picture_url = "https://te.legra.ph/Donate-Us-07-05"
     
     # Send the picture along with the help message
     await message.reply_photo(
@@ -117,8 +117,8 @@ async def about(bot, query):
         text=Translation.ABOUT_TXT.format(my_name='Public Forward',python_version=python_version(),pyrogram_version=pyrogram_version,mongodb_version=await mongodb_version()),
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton('🕷 ᴄᴏᴅᴇ ᴀʀᴛɪꜱᴀɴ', url='https://t.me/Anmol0700'),
-            InlineKeyboardButton('👀 ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://te.legra.ph/file/fecf4e578f159374f33c4.mp4')
+            InlineKeyboardButton('🕷 ᴄᴏᴅᴇ ᴀʀᴛɪꜱᴀɴ', url='https://t.me/Shubham_X_official'),
+            InlineKeyboardButton('💳 ʙᴜʏ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://t.me/Shubham_X_official')
             ],[
             InlineKeyboardButton('↩ ʙᴀᴄᴋ', callback_data='back')
             ]]
