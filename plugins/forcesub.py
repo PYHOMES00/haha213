@@ -20,7 +20,7 @@ async def ForceSub(c: Client, m: Message):
         if user.status == "kicked":
             await c.send_message(
                 chat_id=m.from_user.id,
-                text="Sᴏʀʀʏ sɪʀ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ. Cᴏɴᴛᴀᴄᴛ ᴍʏ ᴀᴅᴍɪɴ @Film_Nest .",
+                text="Sᴏʀʀʏ sɪʀ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ. Cᴏɴᴛᴀᴄᴛ ᴍʏ ᴀᴅᴍɪɴ @SHUBHAM_X_OFFICIAL .",
                 disable_web_page_preview=True,
                 parse_mode="Markdown",
                 
@@ -36,7 +36,7 @@ async def ForceSub(c: Client, m: Message):
                         InlineKeyboardButton("🤖 Jᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ", url=invite_link.invite_link)
                     ],
                     [
-                        InlineKeyboardButton("🔄 Restart Bot Again", url="https://t.me/FnForward_Bot?start=start_")
+                        InlineKeyboardButton("🔄 Restart Bot Again", url="https://t.me/SMForwardz_Bot?start=start_")
                     ]
                 ]
             )
