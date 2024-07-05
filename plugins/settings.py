@@ -12,7 +12,7 @@ async def settings(client, message):
     await message.delete()
     
     # Fetch the picture from the provided URL
-    picture_url = "https://te.legra.ph/file/1f2ac2fe8cdf202799847.jpg"
+    picture_url = "https://telegra.ph/file/4ff2445eb814758548b52.jpg"
     
     # Send the picture along with the settings message
     await message.reply_photo(
