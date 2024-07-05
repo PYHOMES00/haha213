@@ -36,7 +36,7 @@ async def start(client, message):
     user = message.from_user
     
     # Fetch the picture from the provided URL
-    picture_url = "https://te.legra.ph/Donate-Us-07-05"
+    picture_url = "https://telegra.ph/file/4ff2445eb814758548b52.jpg"
     
     # Send the picture with the start message
     await client.send_photo(
@@ -71,7 +71,7 @@ async def help(client, message):
         await db.add_user(user.id, user.first_name)
     
     # Fetch the picture from the provided URL
-    picture_url = "https://te.legra.ph/Donate-Us-07-05"
+    picture_url = "https://telegra.ph/file/4ff2445eb814758548b52.jpg"
     
     # Send the picture along with the help message
     await message.reply_photo(
