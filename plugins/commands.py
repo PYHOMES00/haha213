@@ -18,8 +18,6 @@ main_buttons = [[
         InlineKeyboardButton('🆘 ʜᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton('ℹ️ ᴀʙᴏᴜᴛ', callback_data='about')
         ],[
-        InlineKeyboardButton('🆘 ʜᴇʟᴘ', callback_data='donate')
-        ],[
         InlineKeyboardButton('⚙️ ꜱᴇᴛᴛɪɴɢꜱ', callback_data='settings#main')
         ]]
 
