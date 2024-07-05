@@ -3,7 +3,7 @@ import os
 class Config:
     API_ID = "28243586"
     API_HASH = "4022d5686b9b7a7cf8891205921a0ab3"
-    BOT_TOKEN = "7229486383:AAHwLgEvybUjmj9pH7n-pr8m9FgRHVkjG20"
+    BOT_TOKEN = "7151356654:AAF5JV1bK-CzeB_KlAUKABipL_JjIjFwEzA"
     BOT_SESSION = "forward-bot" 
     DATABASE_URI = "mongodb+srv://madarazbotz:Olm2V88uGXRS5m8y@cluster0.i58ntas.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     DATABASE_NAME = "Cluster0"
